@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <title>Document</title>
+</head>
+<style>
+body{
+    height:100vh;
+  background-image:url('https://i.pinimg.com/originals/c8/ba/30/c8ba30ee61944cc26dbde4022a0a4b72.gif');
+  background-repeat:no-repeat;
+  background-size:cover;
+ 
+   
+}
+.f{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.mob{
+    height:400px;
+    width:400px;
+    border: 1px solid rgb(209, 209, 209);
+    text-align: center;
+  background-color:white;
+   border-radius:10px;
+}
+button{
+    height:50px;
+    width:110px;
+    border-color: transparent;
+    background-color: rgb(193, 143, 240);
+    font-size: large;
+   text-align: center;
+   border-radius: 8px;
+   
+}
+input{
+   height:30px;
+   width:250px;
+    background-color: rgb(239, 255, 250);
+    border:0.5px solid rgb(156, 155, 155);
+    border-radius: 4px;
+}
+
+</style>
+<body class="f"><div class="mob f">
+    <form action="/WEATH" method="post">
+      <h1>Weather API</h1>
+      <input type="text" placeholder="Enter a city name" name="city"><br><br>
+
+      <button type="submit">SUBMIT</button>
+    </form>
+    </div>
+</body>
+</html>
